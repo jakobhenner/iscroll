@@ -13,10 +13,13 @@
     "mobile",
     "desktop"
   ],
-  "main": "build/iscroll.js",
+  "main": "build/iscroll-probe.js",
   "devDependencies": {
     "jshint": "~2.9.1",
     "uglify-js": "~2.6.2"
+  },
+  "scripts": {
+    "build": "./build.js"
   },
   "repository": {
     "type": "git",

@@ -68,15 +68,7 @@ var releases = {
 	}
 };
 
-var args = process.argv.slice(2);
-
-if ( !args.length ) {
-	args = ['iscroll'];
-}
-
-if ( args[0] == 'dist' ) {
-	args = ['lite', 'iscroll', 'zoom', 'probe', 'infinite'];
-}
+var args = ['lite', 'iscroll', 'zoom', 'probe', 'infinite'];
 
 // Get the list of files
 args.forEach(function (release) {
